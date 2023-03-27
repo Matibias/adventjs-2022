@@ -22,18 +22,7 @@ function countTime(leds) {
         arr[index-1] = 1;
       }
     });
-
-    // console.log(arr2)
-
-    // arr2.forEach(element => {
-    //   if (element === 0) {
-    //     arr[leds.length - 1] = 1;
-    //   }
-    //   console.log('element' ,element)
-    //   arr[element] = 1;
-    // });
-    // console.log(arr)
-
+    
     counter += 7;
     if (!arr.some(item => item === 0)) {
       console.log("hola");
